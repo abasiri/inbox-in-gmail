@@ -350,6 +350,47 @@ button.gb_lf {
 	margin-top: 2px !important;
 }
 
+/* email default icon need to add some java so we can format the icon from google to be based on the from name */
+.oZ-jc.T-Jo.J-J5-Ji::after {
+	background-image: url('https://lh3.googleusercontent.com/-XdUIqdMkCWA/AAAAAAAAAAI/AAAAAAAAAAA/4252rscbv5M1BavuFvcCt_LLt-2iC_aPAIhkKAUoQ____________ARjAmoH4______8B/w28-h28/photo.jpg');
+	background-position: center;
+	border-radius: 50%;
+	margin-top: 3px;
+	padding-right: 7px;
+	padding-bottom: -4px;
+}
+
+/* email square icon */
+.oZ-jc.T-Jo.J-J5-Ji:hover::after  {
+	background-image: url('gstatic.com/images/icons/material/system/1x/check_box_outline_blank_grey600_24dp.png') !important;
+	background-size: 24px !important;
+}
+
+.oZ-x3.xY {
+	margin-top: 5px;
+}
+
+/* email square icon */
+.zA.zE.x7.btb.aqw::before {
+	background-image: none;
+}
+
+/* email area adding padding */
+.zA.yO, .zA.zE.btb {
+	padding-bottom: 20px;
+}
+
+/* align from email name */
+.yX.xY {
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+/* align subject */
+.xY.a4W {
+	margin-top: 6px;
+}
+
 /*
 **
 **END OF MAIN MENU, SEARCH BAR AND EMAIL AREA
